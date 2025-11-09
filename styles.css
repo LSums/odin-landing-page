@@ -1,0 +1,72 @@
+* {
+    font-family: "Roboto";
+    outline: 2px solid red;
+}
+
+h1 {
+    font-family: "Roboto";
+}
+
+.full_body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.page_links{
+    display: flex;
+    font-size: 18;
+    color: #E5E7EB;
+}
+.page_links h5{
+    padding: 20px;
+}
+
+.title_body{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title_text{
+    text-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.title_description{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title_button button{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+
+.title_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
