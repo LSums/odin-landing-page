@@ -36,6 +36,7 @@ h1 {
 .title_body{
     background-color: #1F2937;
     justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .title_text{
@@ -100,4 +101,72 @@ h1 {
     text-align: center;
     height: 100px;
     width: 100px;
+}
+
+.quote_body{
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    flex-direction: column;
+}
+
+.quote{
+    width: 700px;
+    height: 100px;
+}
+
+.quote_person{
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 500px;
+}
+
+.signup_body{
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.signup_container{
+    background-color: #3882F6;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.signup_text{
+    flex-direction: column;
+}
+
+.signup_text_title{
+    color: #F9FAF8;
+}
+
+.signup_text_body{
+    color: #d0d1d0;
+}
+
+.signup_button{
+    align-items: center;
+    margin-left: 100px;
+}
+
+.signup_button button{
+    background-color: #3882F6;
+    outline: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+}
+
+.copyright_body{
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.copyright{
+    color: #c0c2c5;
 }
