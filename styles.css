@@ -1,6 +1,9 @@
 * {
     font-family: "Roboto";
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+}
+div{
+    display: flex;
 }
 
 h1 {
@@ -8,13 +11,11 @@ h1 {
 }
 
 .full_body{
-    display: flex;
     flex-direction: column;
 }
 
 .header{
     background-color: #1F2937;
-    display: flex;
     justify-content: space-around;
     gap: 500px;
 }
@@ -25,7 +26,6 @@ h1 {
 }
 
 .page_links{
-    display: flex;
     font-size: 18;
     color: #E5E7EB;
 }
@@ -35,14 +35,12 @@ h1 {
 
 .title_body{
     background-color: #1F2937;
-    display: flex;
     justify-content: space-evenly;
 }
 
 .title_text{
     text-wrap: wrap;
     justify-content: center;
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -66,7 +64,40 @@ h1 {
 }
 
 .title_image{
-    display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.info_body{
+    flex-direction: column;
+}
+
+.info_title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    justify-content: center;
+}
+
+.info_pictures{
+    justify-content: center;
+}
+
+.info_section{
+    flex-direction: column;
+}
+
+.info_imgs{
+    outline: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+
+.img_subtext{
+    font-size: 18px;
+    color: #c0c2c5;
+    text-align: center;
+    height: 100px;
+    width: 100px;
 }
